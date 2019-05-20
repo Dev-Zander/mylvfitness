@@ -1,0 +1,84 @@
+/*Header CSS*/
+.header-main{
+    height: 80px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: stretch;
+    
+    
+  
+    
+}
+.header-logo{
+    padding-left: 2%;
+    height: 80px;
+    width: 200px;
+}
+.header-title{
+    font-size: 20px;
+    color: red;
+    padding-left: 1%;
+    font-weight: bold;
+    padding-right: 30%;
+    white-space: nowrap;
+
+
+}
+
+.header-button{
+    color: lightblue;
+    padding-left: 15px;
+    white-space: nowrap;
+
+
+
+}
+
+.header-logo-style{
+    padding-top: 4%;
+    height: 75%;
+    width: 75%;
+
+}
+
+/*Footer CSS*/
+.footer-main{
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(36, 35, 35);
+    color: whitesmoke;
+    position: relative;
+    
+
+
+    
+}
+.footer-copyright{
+    color: rgb(114, 105, 105);
+    background-color: black;
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    width: 99vw;
+}
+
+
+
+/*Main CSS*/
+.main{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    
+}
