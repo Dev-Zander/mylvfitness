@@ -15,7 +15,7 @@ class Header extends Component {
             <div className='header-button'>Home</div>
             <div className='header-button'>About Us</div>
             <div className='header-button'>Trainer Search</div>
-            <div className='header-button'>Login/Sign Up</div>
+            <div className='header-button'>Login/Sign-Up</div>
 
             </div>
         )

@@ -1,4 +1,5 @@
 /*Header CSS*/
+
 .header-main{
     height: 80px;
     width: 100vw;
@@ -10,9 +11,7 @@
 	justify-content: flex-start;
 	align-items: center;
     align-content: stretch;
-    
-    
-  
+    position: fixed;
     
 }
 .header-logo{
@@ -33,8 +32,11 @@
 
 .header-button{
     color: lightblue;
-    padding-left: 15px;
+    padding-left: 10px;
     white-space: nowrap;
+    font-weight: bold;
+    margin-left: -15px;
+    padding-right: 15px;
 
 
 
@@ -49,7 +51,7 @@
 
 /*Footer CSS*/
 .footer-main{
-    height: 25vh;
+    height: .5vh;
     width: 100vw;
     background-color: rgb(36, 35, 35);
     color: whitesmoke;
@@ -67,9 +69,10 @@
     position: absolute;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 1%;
-    width: 99vw;
+    width: 100vw;
+    text-align: center;
 }
+
 
 
 
@@ -77,8 +80,41 @@
 .main{
     
     width: 100vw;
-    height: 100vh;
-    background-color: white;
+    height: 95vh;
+    background-color: rgb(31, 24, 24);
     color: black;
+    display: flex;
+	flex-direction: column;
     
+}
+
+.main-welcome{
+    color: silver;
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+    padding-top: 10%;
+    text-align: center;
+    white-space: nowrap
+    
+}
+
+.main-paragraph{
+    color:snow;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 6%;
+    padding-top: 3%;
+    width: 30%;
+    padding-right: 10%
+}
+.main-image{
+    height: 350px;
+    width: 450px;
+
+}
+
+.main-paragraph-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
 }
