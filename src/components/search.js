@@ -5,23 +5,13 @@ import Footer from './footer';
 
 
 
-class Login extends Component {
+class Search extends Component {
     render() {
         return (
             <div>
                 <Header />
                 <div className='main'>
 
-                <div className='login-container'>
-
-                <div>User Name</div>
-                <div> Password</div>
-                <div>
-                <div>Login</div>
-                <div>Register</div>
-                </div>
-
-                </div>
 
 
                 </div>
@@ -32,4 +22,4 @@ class Login extends Component {
     }
 }
 
-export default Login
+export default Search

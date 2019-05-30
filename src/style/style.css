@@ -118,3 +118,12 @@
     flex-direction: row;
     padding-left: 10%;
 }
+
+/*Login Page*/
+.login-container{
+    padding-top: 20%;
+    height: 500px;
+    width: 500px;
+    font-size: 10px;
+    color: white;
+}
